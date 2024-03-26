@@ -65,6 +65,9 @@ function islogedIn(req, res, next) {
 router.get('/feed',function(req,res,next){
   res.render('feed');
 })
+router.get('/index',function(req,res,next){
+  res.render('index');
+})
 
 
 module.exports = router;
