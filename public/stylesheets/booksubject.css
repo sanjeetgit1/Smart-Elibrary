@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#navbar{
+    width: 100%;
+    height: 90px;
+    background-color: #f18b2b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+}
+#logo_1{
+    width: fit-content;
+   
+}
+#logo_1 h1 a{
+    font-size: 2vw;
+    text-decoration: none;
+    color:#FEECDA ;
+
+
+}
+#logo_1 h3 a{
+    text-decoration: none;
+    color:#FEECDA;
+}
+
+
+
+#logo_2 {
+    gap: 3vw;
+    display: flex;
+   
+   
+    
+
+}
+#logo_2 h2 a{
+  text-decoration: none; 
+  color: #FEECDA; 
+ 
+}
+
+
+.home{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 5vw;
+    /* background-color: bisque; */
+gap: 5vw;
+}
+.left{
+    width: 30%;
+    height: auto;
+    /* background-color: red; */
+}
+.left h1{
+    color:black;
+   
+}
+.left .art h1{
+    font-size: 1.9vw;
+    color: black;
+     margin-bottom: 1vw;
+     margin-top: 3vw;
+}
+
+.left .art h2{
+    color: #676767;
+    margin-top: .5vw;
+    font-size: 1.2vw;
+}
+.left .price h1{
+    margin-top: 2vw;
+
+}
+.left .price h2{
+    color: #676767;
+    margin-top: .5vw;
+    font-size: 1.2vw;
+}
+.left .format h1{
+    margin-top: 2vw;
+
+}
+.left .format h2{
+    color: #676767;
+    margin-top: .5vw;
+    font-size: 1.2vw;
+}
+
+.right{
+    width: 70%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+
+.right .nav  {
+display: flex;
+align-self: center;
+justify-content: center ;
+margin-bottom: 3vw;
+
+}
+
+.divider {
+    width: 85%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left: -5vw;
+    font-weight: 800;
+  }
+  
+  .divider::before ,.divider::after{
+    flex: 1;
+    content: '';
+    padding: .5px;
+    background-color:black;
+   margin: 40px;
+   margin-bottom: 1vw;
+  
+  }
+.div {
+    width: 95%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left: 1vw;
+    font-weight: 800;
+    margin-bottom: 4vw;
+  }
+  
+  .div::before ,.div::after{
+    flex: 1;
+    content: '';
+    padding: .5px;
+    background-color:black;
+   margin: 40px;
+   margin-bottom: 1vw;
+  
+  }
+.div1 {
+    width: 55%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-weight: 800;
+  }
+  
+  .div1::before ,.div1::after{
+    flex: 1;
+    content: '';
+    padding: .5px;
+    background-color:black;
+   margin: 40px;
+   /* margin-bottom: 0.5vw; */
+  
+  }
+
+
+  .cards{
+    width: 100%;
+    height:75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1vw;
+    
+    
+
+}
+.allcards{
+    width: fit-content;
+    height:fit-content;
+    /* background-color: #f18a29; */
+    display: flex;
+    text-align: center ;
+    justify-content:space-around ;
+}
+.card{
+    width: 18rem;
+    height: 28rem;
+    /* background-color: red; */
+      display: flex;
+      text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 1vw;
+   
+}
+.card .image{
+    width: 14rem;
+    height: 18rem;
+    /* background-color: rebeccapurple;   */
+}
+.card .image p{
+    text-align: start;
+}
+.card .image h3{
+    text-align: start;
+    margin-bottom: 5px;
+}
+.card .image button {
+    width: fit-content;
+    height: 2rem;
+    margin-right: 10vw;  
+}
+.card .image button a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5vw;
+}
+img{
+    width: 14rem;
+    height: 18rem;
+    
+    
+}
+.card1{
+    width: 18rem;
+    height: 28rem;
+    /* background-color: red; */
+      display: flex;
+      text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 1vw;
+}
+.card1 .image{
+    width: 14rem;
+    height: 18rem;
+    /* background-color: rebeccapurple;   */
+}
+.card1 .image p{
+    text-align: start;
+}
+.card1 .image h3{
+    text-align: start;
+    margin-bottom: 5px;
+}
+.card1 .image button {
+    width: fit-content;
+    height: 2rem;
+    margin-right: 10vw;  
+}
+.card1 .image button a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5vw;
+}
+.card2{
+    width: 18rem;
+    height: 28rem;
+    /* background-color: red; */
+      display: flex;
+      text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 1vw;
+}
+.card2 .image{
+    width: 14rem;
+    height: 18rem;
+    /* background-color: rebeccapurple;   */
+}
+.card2 .image p{
+    text-align: start;
+}
+.card2 .image h3{
+    text-align: start;
+    margin-bottom: 5px;
+}
+.card2 .image button {
+    width: fit-content;
+    height: 2rem;
+    margin-right: 10vw;  
+}
+.card2 .image button a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5vw;
+}
+
+.footer{
+    width: 100%;
+    height:75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vw;
+    color: white;
+    background-color: #000;
+    
+    
+  
+  }
+  .allfooter{
+    width: 100%;
+    height:fit-content;
+    /* background-color: #f18a29; */
+    display: flex;
+    text-align: center ;
+    justify-content:space-around ;
+    margin-left: 3vw;
+    margin-top: 10vw;
+  }
+  
+  .footer_1{
+      width: 18rem;
+      height: 24rem;
+      
+      overflow: hidden;
+  }
+  .footer_2{
+      width: 18rem;
+      height: 24rem;
+      
+      overflow: hidden;
+  }
+  .footer_3{
+      width: 18rem;
+      height: 24rem;
+     
+      overflow: hidden;
+  }
+  .footer_4{
+      width: 18rem;
+      height: 24rem;
+      
+      overflow: hidden;
+  }
+  
+  .footer_1  h2{
+      text-align: start;
+      margin-bottom: 8px;
+      opacity: 0.6;
+      font-weight: 400;
+  }
+  .footer_1  h1{
+      text-align: start;
+      margin-bottom: 8px;
+  }
+  .footer_2  h1{
+      text-align: start;
+      margin-bottom: 8px;
+  }
+  .footer_3  h1{
+      text-align: start;
+      margin-bottom: 8px;
+      margin-left: 3vw;
+  }
+  .footer_4  h1{
+      text-align: start;
+      margin-bottom: 8px;
+  }
+  .footer_4 #inp {
+      text-align: start;
+      margin-bottom: 8px;
+      margin-right: 7vw;
+      padding: 0.5vw;
+      border-radius: 10px;
+      font-weight: 700;
+      border: none;
+  }
+  .footer_2  h2{
+      text-align: start;
+      margin-bottom: 8px;
+      opacity: 0.6;
+      font-weight: 400;
+  }
+  
+  .footer_3  h2{
+      text-align: start;
+      margin-bottom: 8px;
+      opacity: 0.6;
+      font-weight: 400;
+      margin-left: 3vw;
+  }
+  .footer_4  h2{
+      text-align: start;
+      margin-bottom: 8px;
+      opacity: 0.6;
+      font-weight: 400;
+  }

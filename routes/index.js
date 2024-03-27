@@ -65,6 +65,12 @@ function islogedIn(req, res, next) {
 router.get('/feed',function(req,res,next){
   res.render('feed');
 })
+router.get('/books',function(req,res,next){
+  res.render('books');
+})
+router.get('/booksubject',function(req,res,next){
+  res.render('booksubject');
+})
 
 
 module.exports = router;
