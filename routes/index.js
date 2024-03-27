@@ -65,11 +65,16 @@ function islogedIn(req, res, next) {
 router.get('/feed',function(req,res,next){
   res.render('feed');
 })
+<<<<<<< HEAD
 router.get('/books',function(req,res,next){
   res.render('books');
 })
 router.get('/booksubject',function(req,res,next){
   res.render('booksubject');
+=======
+router.get('/index',function(req,res,next){
+  res.render('index');
+>>>>>>> 1f2bef54d215e04be1ee3ce1f5134e6d730de86d
 })
 
 
